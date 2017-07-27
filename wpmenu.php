@@ -53,9 +53,9 @@ class WPMenuItem {
     {
         return new WPMenuAddItem($this->menuId);
     }
-    public function delete()
+    public function delete($itemId)
     {
-        return wp_delete_post($this->menuId);//yes yes..shitcode from wordpress - /wp-admin/includes/nav-menu.php 1056(WordPress 4.7.5)
+        return wp_delete_post($itemId);//yes yes..shitcode from wordpress - /wp-admin/includes/nav-menu.php 1056(WordPress 4.7.5)
     }
 }
 class WPMenuAddItem {
