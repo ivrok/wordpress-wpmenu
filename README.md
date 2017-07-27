@@ -2,7 +2,7 @@
 Simple class helps to work with wordpress menu
 
 #Examples
-`
+''
 //delete menu
 WPMenu::instance()->delete('top_menu');
 
@@ -22,4 +22,4 @@ $itemId = $res[0]['ID'];
 $res = WPMenu::instance()->items($menuId)->get($itemId);
 //delete menu item
 $res = WPMenu::instance()->items($menuId)->delete($itemId);
-`
+''
