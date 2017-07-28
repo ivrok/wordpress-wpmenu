@@ -1,7 +1,7 @@
 # wordpress-wpmenu
 Simple class helps to work with wordpress menu
 
-#Examples
+## Examples
 ```
 //delete menu
 WPMenu::instance()->delete('top_menu');
